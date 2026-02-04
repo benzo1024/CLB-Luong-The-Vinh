@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>CLB Báo Chí</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: url("https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/540364913_122174631050496359_1735377220435944423_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=dkxIUarXtYoQ7kNvwG65SUr&_nc_oc=AdkvN8LvBcV27mqWKLrwGjLsiOueQYmM5ga4TrdD2ezgBO8ZKR036HeGutXrzoUinS6A5k8MTlodD9LKdFgQWlEP&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=x4qQVV9USgsz-kmOYd7rpw&oh=00_Afv7sa8WJRH8WUh3fsV4OOP4ibycWPkRC7-M0fVInsgTHg&oe=6987E4A2") center/cover no-repeat;
+            color: rgb(78, 147, 204);
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        .about {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .about img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 8px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-box {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        
+        button {
+            background: #e52c82;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner -->
+    <header>
+        <h1>CLB Báo chí trường THPT Lương Thế Vinh</h1>
+    </header>
+
+    <!-- Giới thiệu -->
+    <section>
+        <h2>Về Chúng Tôi</h2>
+        <div class="about">
+            <img src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/472670659_122135377166496359_8623588128542202989_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IuTxYsWfM2gQ7kNvwFhwbe8&_nc_oc=Adlfbf3q7GkbTkRzKNay-7aOENuGgLhVghmvsgjZd4-t4MQpk48wBG-gMwuk6eOQWqi_ZsCFe42ys3Yd5O0zTewj&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=z8tVSms_qtpn8pco6vApBQ&oh=00_AftsNGhBpK8e5fYAPfVDn1Zu4QcoRODaq36Hv41zOraMpA&oe=6987FFB2" alt="Hình giới thiệu">
+            <div class="about-text">
+                <p>
+                    CLB đảm nhiệm việc đưa tin, viết bài, chụp ảnh và lan tỏa các hoạt động của nhà trường.
+                </p>
+                <p>
+                    Tham gia MLP giúp học sinh rèn kỹ năng sáng tạo, giao tiếp và làm việc nhóm.
+Đây là môi trường năng động để học sinh phát triển bản thân và thể hiện đam mê.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dịch vụ -->
+    <section>
+        <h2>Hoạt động</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Thiết Kế Website</h3>
+                <p>CLB tham gia xây dựng, quản lý và cập nhật website với giao diện thân thiện, dễ sử dụng. Nội dung được đăng tải gồm tin tức, bài viết, hình ảnh về các hoạt động học tập, phong trào và sự kiện của nhà trường, góp phần quảng bá hình ảnh học sinh Lương Thế Vinh.</p>
+            </div>
+            <div class="service-box">
+                <h3>Phát Triển Ứng Dụng</h3>
+                <p>Phát Triển Ứng Dụng
+CLB tìm hiểu và thiết kế các sản phẩm, công cụ số phục vụ công tác truyền thông và học tập. Qua đó, thành viên được rèn luyện tư duy công nghệ, khả năng sáng tạo và ứng dụng kiến thức vào thực tế.</p>
+            </div>
+            <div class="service-box">
+                <h3>Tư Vấn & Giải Pháp</h3>
+                <p>Tư Vấn Và Giải Đáp
+CLB hỗ trợ tư vấn, chia sẻ kinh nghiệm và giải đáp các thắc mắc liên quan đến báo chí, truyền thông và công nghệ. Đồng thời, góp phần định hướng kỹ năng, giúp học sinh tiếp cận thông tin đúng đắn và tích cực.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thư viện ảnh -->
+    <section>
+        <h2>Hình Ảnh Hoạt Động</h2>
+        <div class="gallery">
+            <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/601435803_122189505134496359_7345260016998704838_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=fQBRa5YLi0sQ7kNvwFqjtnX&_nc_oc=AdnCd9Ft5fF7sBMR2bWz67PX68M21vtR87D8Bu9Y2En7-x5hfbIcv1WiEjbCgofMsZvZ42mxTXZsx964hJAe_H0G&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=d8jmdC_DHjyYiAsLpJK_dA&oh=00_AfvAysyaCGdZl221MWJcJlv4xtXcMPIXXLKZ20qV66dmlA&oe=6987FFF9" alt="">
+            <img src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/601874547_122189505122496359_3533766719556358029_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_hEN9dzF20EQ7kNvwHKkZiM&_nc_oc=AdmBXwMfcuIw1tpE3vQ2UFWDkZUjsvTc4Apr9cdTPne0CbQUpTF3HcBIAetV3LnerBUqv4AVZCqPxxNLfP3ktzhy&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=cKF6QuP7deHQ_zEvMlmLow&oh=00_Aft-CK5qoGFqnIs9Y8zVsto3DN8qcqSdwOkZA8VgFlbodQ&oe=6987E524" alt="">
+            <img src="https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/564603804_122181490832496359_7871910393100953160_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=X06FCrJidqgQ7kNvwGcoa5Q&_nc_oc=Adm3enQeOfwT3fmN1spsqk83rIjYgqgBdjNwI0qiOXFudU4OMxTzhLxrD2iYHF6slnKj6KMHRTpdcTXb-cbe04sj&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=pjTGCqgDyRTnfIx2aOhzug&oh=00_AfsHrs7kent4LBmTd3jp9Z5hZQzrhIhAeIHQG-gRQfm8AA&oe=6987F746" alt="">
+            <img src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/564799580_122180731094496359_6123045610783801788_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MkeV0k4GZg4Q7kNvwFfucW2&_nc_oc=AdlFiOTspteZ70ye2ZDXrhI6mtLpG4_8r7HrJVVnvw4rG8nBUYj0WepVhAN6UBmu3oSRBOLdoThF1XbdEahdrhxf&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=nodDwWRcEz4iS2ZjrdMv4Q&oh=00_Afsb4IsIZnnWwWRwJAdhfpXITnwJvGmMBZILEvQMKagxVg&oe=6987EAC2" alt="">
+            <img src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/466676400_122125328636496359_3039540115878431373_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=SDXrs-aWgegQ7kNvwGKdSok&_nc_oc=AdkvfKqt-khbOn4Ixj8SJkIE1vzc8nxxi-aqEb3hKjLSxpUWMnALGVE8ixbBP86OrdWc3gF1mEGWZcrcg91Ty4iG&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=QhfEIXccnjutBdU0Z72W3A&oh=00_AfuQ4KofskCJ3TWuTWSqvAkS2v13OwWQOIzRiPsrnrG3YQ&oe=6987DB66" alt="">
+            <img src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/543548490_122175823994496359_7502660655295059760_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3y4scKFFleUQ7kNvwGAg9mg&_nc_oc=AdkhyJ-4y8QcCiXx4gWT4ZjDbk8mU-0nrkHLXiboIrHnB5g2ryytztERgwWsy9eYsZdH8XGAx_6R7pKFb-Pz1Xxe&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=jx0OyGUpJhM2_AiNB7fYUw&oh=00_AfubZ2t-rd0dOcMVmyrahLF-8ulGtDJ1soAuvaStYtEqfw&oe=69880820" alt="">
+            <img src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/544936395_122175823238496359_5230251698117899982_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vi1uINK5UUAQ7kNvwGo6K2r&_nc_oc=AdltFqO8OhAX4pEZUZapU2LsDQHAj8SMToUqIEEKlaLngggp0MlkhxCK0w9UnWU17DhgLNryv1UKPqhvUBiV2BLT&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=LFEx_vM7M5aCr3rTNIXPeA&oh=00_AfsrFh5NC2sQfXxwyitbZQzBYk9SZpuUZfyvYXq-YuExCA&oe=69880352" alt="">
+            <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/502580125_122161291316496359_7542161553361890803_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XC6dqfYdOMAQ7kNvwEhoZFE&_nc_oc=AdkV3ySL4gRHCtt4b2F7EA7UYkL8SdpDCDlr9Lot6jtprbDdxJE8rBti_MB11WnUzoCnAfEc6bBUQfE66UaKFnQR&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=B0-5e86eG6t5X4OJwsxnqQ&oh=00_AfvCmWm9xBQMvd0EDVHw4GdhIKep5vGuNUQ0uDrZArwIKw&oe=6987ECD6" alt="">
+            <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/502139964_122160976286496359_6054439406865829052_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oZv4auNWECQQ7kNvwGbccnb&_nc_oc=AdmMwZbr8ZkQ5c73OAeC3akVOWDahxDkniMocqF-D8B6l1lCtje3nF9aBZaVtjiL1pc1laeSyx9i3x2tohIqxw6k&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=cTt3nVw71kCwGP3HuGcr6A&oh=00_AfssnxG2tC31pbcxTTQeS50ZfF2H8qml0FFzDlMQi2cVxA&oe=6987F7E6" alt="">
+            <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/502144213_122160974588496359_6858709360594893765_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Kp9whpw57jwQ7kNvwFycumz&_nc_oc=AdnUMnyX_qLDetxPT-WnNGjQIeG0-oecmCNCDNLMaANJNJlQHvcwOm8n0p-D70-y4ut6fwbEo7H9mybYsCVE2E1E&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=0WnkWR4xi7iBdK2viUnjjw&oh=00_AfucCRSefRLjWWuUddQQGcZ6indWNM4Dt4iRveUCASw60g&oe=6987EEA0" alt="">
+            <img src="https://scontent-hkg4-2.xx.fbcdn.net/v/t39.30808-6/486506476_122150057156496359_7329703275971845404_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=65wsORJMLv8Q7kNvwHNs6ta&_nc_oc=Adm_tYXJ8NI3BcazqYqhlBXAU5VqTMiLTFBGVR-fhGD7xj0SV3lp_N-FGgSbfcNhCNq0lxJk66rbDqFQtd6xE0P6&_nc_zt=23&_nc_ht=scontent-hkg4-2.xx&_nc_gid=Xt8HMUNZHjVU70Qnf9Qc4Q&oh=00_AfvpcPgkb8mV4IxgI70kTrjF53CXZJgn_RJDxZF6Rdlkgw&oe=6987D6F6" alt="">
+            <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/481767435_122145949418496359_9190383806117248333_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XpYxQe54mT8Q7kNvwH9QXA1&_nc_oc=AdmK7gtKMihNG84G9tesEeH6D18qeO3DdETdxobzrLsH8HiLz5Y3ImvqH8QaFrfXFRKcb7FG5O2NQ_IEenwx4UuB&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=clMrKRExLkic5kw2AfXA0w&oh=00_AfvGwZ0JsBFSxk7Rx-EJ1LOzu9HvyKcTydp5SF0EaWa9YA&oe=6987DA38" alt="">
+            <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/474760807_122138686796496359_2955969068502260828_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=49fBo8XJnEUQ7kNvwHQWifd&_nc_oc=AdnYB8W6qA7opIlnHRwLYMnc64mqKeMRHEqyI1TU38pZeGhhHyRO6w9URAw0ZHsOqBO6teoLkeyYmH5luOXI7c_L&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=95HXbwszgmGL2VDfZ4sKDQ&oh=00_AfsxDV-Mc_UdmfqrPFPyJfDPW8hijB9BHuVMEKUzwc9D7Q&oe=6987E706" alt="">
+            <img src="https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/472746525_122135290616496359_613306471540521718_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=j8d_LBwLWBwQ7kNvwEZ2Cso&_nc_oc=AdmzqEDRxplYpTS5ujgWYJwMFXNHA71lOcAG53Ter8wt4ZbviFImbJmRl7kmH8tHIFn1UnvMfiU7UgIdQ73-E-1l&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=YGU-CHgUX3_rmCq--IDXzw&oh=00_AfsPdPDui9jjxWcxSwopKf7r6B5Nwr3y7lh8M45bQmcVZQ&oe=6987FFB9" alt="">
+            <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/472234700_122135303552496359_885650553002400641_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dmWuUhe9A_oQ7kNvwHxTinK&_nc_oc=AdnpT0wYaWWRzN7uEukMctciMZKcNArRa6zzzBq1TPAMCiRCTE5wkh-Y4_wa8ZJGklCrB5X96vPuNvcxDTsQf1on&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=ESw5kjtgT17xB_DzHMK_1g&oh=00_AfvHXAwlupxUb0X85CvKioobz_xAuEkTZABTUwsnSb3ewQ&oe=6987FA91" alt="">
+
+
+        </div>
+    </section>
+
+   <!-- Liên hệ -->
+    <section>
+        <h2>Liên Hệ</h2>
+        <p style="text-align:center;">
+            📍 Địa chỉ: 321, Hùng Vương, Phường Ba Đồn, Tỉnh Quảng Trị<br>
+            📞 Điện thoại: 0338290423<br>
+            ✉ Email: hungkutexvip@gmail.com<br>
+            <a href="file:///D:/benzo%20pythan/CBL%20L%C6%B0%C6%A1ng%20Th%E1%BA%BF%20Vinh.html">Quay trở lại trang chính</a><br><br>
+            <button><a href="file:///D:/benzo%20pythan/CBL%20L%C6%B0%C6%A1ng%20Th%E1%BA%BF%20Vinh.html">Đăng Ký</a></button>
+        </p>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <p>© Bài ktr tin 12 </p>
+        <p>Thiết kế bởi Gia Linh</p>
+    </footer>
+
+
+</body>
+</html>
